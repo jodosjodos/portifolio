@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Introduction from "../components/Introduction";
 import About from "./About";
 import ContactUs from "./ContactUs";
@@ -18,6 +19,9 @@ const Home = () => {
         </div>
         <div id="contact">
           <ContactUs></ContactUs>
+        </div>
+        <div className="bg-black">
+          <Footer/>
         </div>
       </div>
     </div>
