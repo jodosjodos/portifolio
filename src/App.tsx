@@ -7,7 +7,6 @@ function App() {
     backgroundImage:"url(/assets/whiteBg.png)",
     backgroundSize:"cover",
     backgroundRepeat:"no-repeat",
-    minHeight:"0vh"
 
   }
   return (

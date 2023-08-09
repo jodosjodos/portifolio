@@ -6,7 +6,7 @@ import Projects from "./Projects";
 const Home = () => {
   return (
     <div>
-      <div className="flex flex-col gap-96 ">
+      <div className="flex flex-col  gap-16">
         <div id="introduction">
           <Introduction></Introduction>
         </div>

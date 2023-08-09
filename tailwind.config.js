@@ -1,18 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily:{
-        "kelly-slab":["'Kelly Slab'","sans-serif"]
-      }
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        "kelly-slab": ['"Kelly Slab"', "cursive"],
+        mako: ["Mako", "sans-serif"],
+      },
+      colors: {
+        "text-primary": "#0D3167",
+      },
     },
-    colors:{
-    "text-primary":"#0D3167"
-    }
   },
   plugins: [],
-}
+};
