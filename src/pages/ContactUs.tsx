@@ -1,7 +1,7 @@
 const ContactUs = () => {
   return (
     <div>
-      <div className="flex flex-col gap-10 justify-center">
+      <div className="flex flex-col gap-10 justify-center pt-10">
         <div className="flex  justify-center items-center font-medium font-kelly-slab text-2xl text-text-primary ">
           <h1 className="border-b-4 border-[#0D3167]">CONTACT</h1>
         </div>
@@ -10,7 +10,7 @@ const ContactUs = () => {
           <p>I will get back to you as soon as possible</p>
         </div>
         <div className="self-center   w-4/12 ">
-          <form className="bg-white  w-full   flex flex-col  gap-32 justify-center px-10 pt-5 pb-5">
+          <form className="bg-white  w-full   flex flex-col  gap-32 justify-center px-10 pt-5 pb-5 z-50">
             <div className="flex flex-col gap-4">
               <label htmlFor="name" className=" font-kelly-slab text-xl">
                 Name:

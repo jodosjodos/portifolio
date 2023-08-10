@@ -1,6 +1,20 @@
 import SocialMedia from "./SocialMedia";
+import { useNavigate } from "react-router-dom";
 
 const Introduction = () => {
+  const Navigate = useNavigate();
+
+  const scrollToSection = (id: string) => {
+    if (id === "introduction") {
+      Navigate("/");
+    } else {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+        Navigate(`#${id}`);
+      }
+    }
+  };
   return (
     <div>
       <div className="flex flex-col  gap-10 items-center justify-center relative pt-[20em] border-b-2 border-black pb-72">
@@ -14,7 +28,7 @@ const Introduction = () => {
           </p>
           <p className="self-center">application that led to success of overall product</p>
         </div>
-        <button className=" font-kelly-slab bg-text-primary text-white rounded-lg px-10 py-3 text-xl">PROJECTS</button>
+        <button className=" font-kelly-slab bg-text-primary text-white rounded-lg px-10 py-3 text-xl" onClick={()=>scrollToSection("projects")}>PROJECTS</button>
         <SocialMedia/>
       </div>
     </div>

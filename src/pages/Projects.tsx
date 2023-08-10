@@ -1,4 +1,6 @@
 const Projects = () => {
+  
+  
   return (
     <div>
       <div className="flex flex-col gap-20 pt-10 border-b-2 border-black pb-16">
