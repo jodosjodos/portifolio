@@ -27,10 +27,10 @@ const Footer = () => {
             <div className="flex flex-col ">
               <h1 className="text-2xl font-kelly-slab font-medium">Social</h1>
               <div className="flex flex-row">
-                <AiFillLinkedin size={40} />
-                <AiFillTwitterSquare size={40} />
-                <AiFillGithub size={40} />
-                <FaDiscord size={40} />
+                <AiFillLinkedin size={25} />
+                <AiFillTwitterSquare size={25} />
+                <AiFillGithub size={25} />
+                <FaDiscord size={25} />
               </div>
             </div>
             <p>+250727866254</p>

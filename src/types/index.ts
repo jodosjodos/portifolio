@@ -4,3 +4,9 @@ export  interface ScrollProps{
  to:string,
  isRouterLink:boolean
 }
+
+export interface FormData{
+    name:string,
+    email:string,
+    message:string
+}
