@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Projects = () => {
   
   
@@ -25,9 +27,9 @@ const Projects = () => {
 
               <p className="self-center">text you gave it.</p>
             </div>
-            <button className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white">
+            <Link to="/aiVisuage" target="_blank"   className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center">
               Case Study
-            </button>
+            </Link> 
           </div>
         </div>
         <div className="flex flex-row  justify-around">
@@ -49,9 +51,9 @@ const Projects = () => {
 
               <p className="self-center">quality video </p>
             </div>
-            <button className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white">
+            <Link to="/traileress" target="_blank"   className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center">
               Case Study
-            </button>
+            </Link>
           </div>
         </div>
         <div className="flex flex-row  justify-around">
@@ -98,9 +100,9 @@ const Projects = () => {
               <p>manage flow of books in library</p>
               <p className="self-center">easily at small cost </p>
             </div>
-            <button className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white">
+            <Link to="/libblio" target="_blank"  className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center">
               Case Study
-            </button>
+            </Link >
           </div>
         </div>
         <div className="flex flex-row  justify-around">
