@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-black px-24  pt-16 flex flex-col gap-16 pb-16">
-        <div className="text-white flex flex-row border-b  justify-around pb-5">
+        <div className="text-white flex flex-row border-b  border-white dark:border-primary-dark  justify-around pb-5 ">
           <div className="flex flex-col gap-5">
-            <h1 className="text-2xl font-kelly-slab font-medium">
+            <h1 className="text-2xl font-kelly-slab font-medium dark:text-primary-dark">
               Jean de Dieu NSHIMYUMUKIZA
             </h1>
             <div className="flex flex-col">
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-6">
             <div className="flex flex-col ">
-              <h1 className="text-2xl font-kelly-slab font-medium">Social</h1>
+              <h1 className="text-2xl font-kelly-slab font-medium dark:text-primary-dark">Social</h1>
               <div className="flex flex-row">
                 <AiFillLinkedin size={25} />
                 <AiFillTwitterSquare size={25} />

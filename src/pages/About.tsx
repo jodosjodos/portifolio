@@ -17,11 +17,11 @@ const About = () => {
 
   return (
     <div>
-      <div className="flex pb-40 pt-10 border-b-2 border-black  flex-col gap-8">
-        <div className="flex  justify-center items-center font-medium font-kelly-slab text-2xl text-text-primary ">
-          <h1 className="border-b-4 border-[#0D3167]">ABOUT ME</h1>
+      <div className="flex pb-40 pt-10 border-b-2 border-black  dark:border-primary-dark  flex-col gap-8">
+        <div className="flex  justify-center items-center font-medium font-kelly-slab text-2xl text-text-primary  dark:text-primary-dark">
+          <h1 className="border-b-4 border-[#0D3167]  dark:border-[#00E5A0]">ABOUT ME</h1>
         </div>
-        <div className="flex flex-col items-center  justify-center ">
+        <div className="flex flex-col items-center  justify-center  dark:text-white">
           <p>
             Here you will find more information about me , what I do , and my
             current skills mostly in terms
@@ -30,10 +30,10 @@ const About = () => {
         </div>
         <div className="flex flex-row justify-around">
           <div className="flex flex-col gap-8">
-            <h1 className="text-2xl font-bold text-text-primary">
+            <h1 className="text-2xl font-bold text-text-primary dark:text-primary-dark">
               Get know me!{" "}
             </h1>
-            <div className="flex flex-col gap-1 ">
+            <div className="flex flex-col gap-1 dark:text-white ">
               <p>
                 I'm a{" "}
                 <span className="font-bold">Full Stack Web Developer</span> with
@@ -74,7 +74,7 @@ const About = () => {
               </p>
               <p>
                 <Link
-                  className="font-bold text-text-primary text-xl border-b-2 border-[#0D3167]"
+                  className="font-bold text-text-primary text-xl border-b-2 border-[#0D3167] dark:text-primary-dark"
                   to="https://www.linkedin.com/in/jean-de-dieu-nshimyumukiza-97b315259/"
                   target="_blank"
                 >
@@ -82,7 +82,7 @@ const About = () => {
                 </Link>{" "}
                 and you can check some my codes on{" "}
                 <Link
-                  className="font-bold text-text-primary text-xl border-b-2 border-[#0D3167]"
+                  className="font-bold text-text-primary text-xl border-b-2 border-[#0D3167] dark:text-primary-dark"
                   to="https://github.com/jodosjodos"
                   target="_blank"
                 >
@@ -118,73 +118,73 @@ const About = () => {
               </p>
             </div>
             <button
-              className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center "
+              className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center  dark:bg-primary-dark"
               onClick={() => scrollToSection("contact")}
             >
               Contact me
             </button>
           </div>
           <div className="flex flex-col gap-8">
-            <h1 className="text-2xl font-bold text-text-primary">My skills</h1>
+            <h1 className="text-2xl font-bold text-text-primary dark:text-primary-dark">My skills</h1>
             <div className="grid grid-cols-3 gap-3">
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary dark:bg-[#00E5A0] dark:text-white flex items-center justify-center">
                 <p>html</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
                 <p>css</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>js</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>react</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>vue</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>tailwind</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>git</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>github</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>express</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>python</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>php</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>laravel</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-32  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-32  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>docker basics</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>sql basics</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>nextjs</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>redux</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>typescript</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>prisma</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>graphql</p>
               </div>
-              <div className=" bg-[#D9D9D9] rounded-md h-10 w-36  text-text-primary flex items-center justify-center">
+              <div className=" bg-[#D9D9D9] rounded-md h-10 w-36  text-text-primary flex items-center justify-center dark:bg-[#00E5A0] dark:text-white">
                 <p>responsive design</p>
               </div>
             </div>
