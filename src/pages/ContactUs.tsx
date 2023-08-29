@@ -55,9 +55,9 @@ const ContactUs = () => {
           <p> Feel free to Contact me by submitting the form below and</p>
           <p>I will get back to you as soon as possible</p>
         </div>
-        <div className="self-center   w-4/12 ">
+        <div className="self-center   lg:w-4/12 md:w-8/12 sm:w-full">
           <form
-            className="bg-white  w-full   flex flex-col  gap-32 justify-center px-10 pt-5 pb-5 z-50 dark:bg-black"
+            className="bg-white  w-full   flex flex-col  gap-32 justify-center px-10 pt-5 pb-5 z-50 dark:bg-black  "
             onSubmit={handleSubmit(handleSubmition)}
           >
             <div className="flex flex-col gap-4">

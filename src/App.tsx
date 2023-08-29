@@ -22,7 +22,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar></Navbar>
-        <div style={backgroundStyles} className=" min-h-screen">
+        <div style={backgroundStyles} className=" min-h-screen md:px-5">
           <Routes>
             <Route element={<Home />} path="/"></Route>
             <Route element={<Libblio />} path="/libblio"></Route>

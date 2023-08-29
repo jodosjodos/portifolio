@@ -11,9 +11,15 @@ export default {
       },
       colors: {
         "text-primary": "#0D3167",
-        "primary-dark":"#00E5A0"
+        "primary-dark": "#00E5A0",
       },
     },
+    screens:{
+      "sm":"360px",
+      "md":"768px",
+      "lg":"1024px",
+      "xl":"1280px"
+    }
   },
   plugins: [],
 };

@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
 const Projects = () => {
-  
-  
   return (
     <div>
       <div className="flex flex-col gap-20 pt-10 border-b-2 border-black pb-16 dark:border-primary-dark">
         <div className="flex  justify-center items-center font-medium font-kelly-slab text-2xl text-text-primary  dark:text-primary-dark">
-          <h1 className="border-b-4 border-[#0D3167] dark:border-primary-dark">PPROJECTS</h1>
+          <h1 className="border-b-4 border-[#0D3167] dark:border-primary-dark">
+            PPROJECTS
+          </h1>
         </div>
-        <div className="flex flex-row  justify-around">
+        <div className="flex lg:flex-row  justify-around md:flex-col gap-7 sm:flex-col">
           <div>
             <img
               src="/assets/aiVisuage.png"
@@ -27,12 +27,16 @@ const Projects = () => {
 
               <p className="self-center">text you gave it.</p>
             </div>
-            <Link to="/aiVisuage" target="_blank"   className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center">
+            <Link
+              to="/aiVisuage"
+              target="_blank"
+              className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center"
+            >
               Case Study
-            </Link> 
+            </Link>
           </div>
         </div>
-        <div className="flex flex-row  justify-around">
+        <div className="flex lg:flex-row  justify-around md:flex-col gap-7 sm:flex-col">
           <div>
             <img
               src="/assets/traileress.png"
@@ -51,12 +55,16 @@ const Projects = () => {
 
               <p className="self-center">quality video </p>
             </div>
-            <Link to="/traileress" target="_blank"   className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center">
+            <Link
+              to="/traileress"
+              target="_blank"
+              className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center"
+            >
               Case Study
             </Link>
           </div>
         </div>
-        <div className="flex flex-row  justify-around">
+        <div className="flex lg:flex-row  justify-around md:flex-col gap-7 sm:flex-col">
           <div>
             <img
               src="/assets/promptopia.png"
@@ -77,12 +85,16 @@ const Projects = () => {
               <p> in seamlessly with your Google</p>
               <p> account for added convenience.</p>
             </div>
-            <Link to="/promptopia" target="_blank"  className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center">
+            <Link
+              to="/promptopia"
+              target="_blank"
+              className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center"
+            >
               Case Study
-            </Link >
+            </Link>
           </div>
         </div>
-        <div className="flex flex-row  justify-around">
+        <div className="flex lg:flex-row  justify-around md:flex-col gap-7 sm:flex-col">
           <div>
             <img
               src="/assets/libblio.png"
@@ -100,12 +112,16 @@ const Projects = () => {
               <p>manage flow of books in library</p>
               <p className="self-center">easily at small cost </p>
             </div>
-            <Link to="/libblio" target="_blank"  className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center">
+            <Link
+              to="/libblio"
+              target="_blank"
+              className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center"
+            >
               Case Study
-            </Link >
+            </Link>
           </div>
         </div>
-        <div className="flex flex-row  justify-around">
+        <div className="flex lg:flex-row  justify-around md:flex-col gap-7 sm:flex-col">
           <div>
             <img
               src="/assets/coryde.png"
@@ -125,9 +141,13 @@ const Projects = () => {
               <p>can are going to use same bus as </p>
               <p>you have .</p>
             </div>
-            <Link to="/coryde" target="_blank"  className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center">
+            <Link
+              to="/coryde"
+              target="_blank"
+              className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center"
+            >
               Case Study
-            </Link >
+            </Link>
           </div>
         </div>
       </div>

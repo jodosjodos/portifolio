@@ -20,9 +20,11 @@ const Navbar = () => {
   };
   return (
     <div>
-      <div className={` dark:text-primary-dark dark:bg-black flex flex-row   justify-between items-center py-3 text-text-primary px-5`}>
+      <div
+        className={`dark:text-primary-dark dark:bg-black flex flex-row   justify-between items-center py-3 text-text-primary px-5`}
+      >
         <div
-          className="flex  items-center  align-middle justify-center  gap-5  hover:cursor-pointer"
+          className="flex   items-center  align-middle justify-center  gap-5  hover:cursor-pointer md:flex lg:flex sm:hidden "
           onClick={() => {
             Navigate("/");
           }}
@@ -32,11 +34,9 @@ const Navbar = () => {
             alt=" my profile picture"
             className=" w-18 h-14 rounded-md border-2 border-black"
           />
-          <h2 className={`  font-extrabold`}>
-            Jean de Dieu NSHIMYUMUKIZA
-          </h2>
+          <h2 className="font-extrabold ">Jean de Dieu NSHIMYUMUKIZA</h2>
         </div>
-        <nav className=" flex flex-row gap-5 items-center font-bold  list-none hover:cursor-pointer">
+        <nav className=" flex flex-row gap-5 sm:gap-3 items-center font-bold  list-none hover:cursor-pointer">
           <li
             onClick={() => {
               scrollToSection("introduction");
@@ -67,8 +67,7 @@ const Navbar = () => {
             CONTACTS
           </li>
           <li onClick={toggleTheme}>
-            {darkMode ? <CiLight size={30}/> :<CiDark size={30} /> }
-            
+            {darkMode ? <CiLight size={30} /> : <CiDark size={30} />}
           </li>
         </nav>
       </div>

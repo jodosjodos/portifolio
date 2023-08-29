@@ -19,7 +19,9 @@ const About = () => {
     <div>
       <div className="flex pb-40 pt-10 border-b-2 border-black  dark:border-primary-dark  flex-col gap-8">
         <div className="flex  justify-center items-center font-medium font-kelly-slab text-2xl text-text-primary  dark:text-primary-dark">
-          <h1 className="border-b-4 border-[#0D3167]  dark:border-[#00E5A0]">ABOUT ME</h1>
+          <h1 className="border-b-4 border-[#0D3167]  dark:border-[#00E5A0]">
+            ABOUT ME
+          </h1>
         </div>
         <div className="flex flex-col items-center  justify-center  dark:text-white">
           <p>
@@ -28,9 +30,9 @@ const About = () => {
           </p>
           <p>of programming and technology </p>
         </div>
-        <div className="flex flex-row justify-around">
-          <div className="flex flex-col gap-8">
-            <h1 className="text-2xl font-bold text-text-primary dark:text-primary-dark">
+        <div className="flex lg:flex-row md:flex-col lg:justify-around md:gap-20 lg:gap-0  md:justify-center  sm:flex-col sm:gap-20">
+          <div className="flex flex-col gap-8 md:self-center lg:self-start sm:self-center">
+            <h1 className="text-2xl font-bold text-text-primary dark:text-primary-dark md:self-center sm:self-center">
               Get know me!{" "}
             </h1>
             <div className="flex flex-col gap-1 dark:text-white ">
@@ -124,8 +126,10 @@ const About = () => {
               Contact me
             </button>
           </div>
-          <div className="flex flex-col gap-8">
-            <h1 className="text-2xl font-bold text-text-primary dark:text-primary-dark">My skills</h1>
+          <div className="flex flex-col gap-8 lg:self-start md:self-center  sm:self-center">
+            <h1 className="text-2xl font-bold text-text-primary dark:text-primary-dark sm:self-center md:self-center">
+              My skills
+            </h1>
             <div className="grid grid-cols-3 gap-3">
               <div className=" bg-[#D9D9D9] rounded-md h-10 w-24  text-text-primary dark:bg-[#00E5A0] dark:text-white flex items-center justify-center">
                 <p>html</p>

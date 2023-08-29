@@ -7,12 +7,12 @@ import { FaDiscord } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useTheme } from "../hooks/ThemeContext";
 const Footer = () => {
-  const {darkMode}=useTheme()
+  const { darkMode } = useTheme();
 
   return (
     <div>
-      <div className="bg-black px-24  pt-16 flex flex-col gap-16 pb-16">
-        <div className="text-white flex flex-row border-b  border-white dark:border-primary-dark  justify-around pb-5 ">
+      <div className="bg-black px-24  pt-16 flex flex-col gap-16 pb-16 w-full">
+        <div className="text-white flex lg:flex-row border-b  lg:gap-0 sm:gap-12 border-white dark:border-primary-dark  justify-around pb-5  md:flex-col sm:flex-col">
           <div className="flex flex-col gap-5">
             <h1 className="text-2xl font-kelly-slab font-medium dark:text-primary-dark">
               Jean de Dieu NSHIMYUMUKIZA
@@ -33,29 +33,44 @@ const Footer = () => {
                 Social
               </h1>
               <div className="flex flex-row">
-              <Link 
-          to="https://www.linkedin.com/in/jean-de-dieu-nshimyumukiza-97b315259/"
-          target="_blank"
-        >
-          <AiFillLinkedin size={25}  color={` ${darkMode? " #00E5A0" :""}`} />
-        </Link>
-        <Link to="https://twitter.com/JodosJodos1" target="_blank">
-          <AiFillTwitterSquare size={25}   color={` ${darkMode? " #00E5A0" :""}`}/>
-        </Link>
-        <Link to="https://github.com/jodosjodos" target="_blank">
-          <AiFillGithub size={25}   color={` ${darkMode? " #00E5A0" :""}`}/>
-        </Link>
-        <Link to="https://discord.com/users/1054299820615028746" target="_blank">
-          <FaDiscord size={25}  color={` ${darkMode? " #00E5A0" :""}`}/>
-        </Link>
+                <Link
+                  to="https://www.linkedin.com/in/jean-de-dieu-nshimyumukiza-97b315259/"
+                  target="_blank"
+                >
+                  <AiFillLinkedin
+                    size={25}
+                    color={` ${darkMode ? " #00E5A0" : ""}`}
+                  />
+                </Link>
+                <Link to="https://twitter.com/JodosJodos1" target="_blank">
+                  <AiFillTwitterSquare
+                    size={25}
+                    color={` ${darkMode ? " #00E5A0" : ""}`}
+                  />
+                </Link>
+                <Link to="https://github.com/jodosjodos" target="_blank">
+                  <AiFillGithub
+                    size={25}
+                    color={` ${darkMode ? " #00E5A0" : ""}`}
+                  />
+                </Link>
+                <Link
+                  to="https://discord.com/users/1054299820615028746"
+                  target="_blank"
+                >
+                  <FaDiscord
+                    size={25}
+                    color={` ${darkMode ? " #00E5A0" : ""}`}
+                  />
+                </Link>
               </div>
             </div>
             <p>+250727866254</p>
           </div>
         </div>
         <div className=" flex flex-row justify-around text-white  ">
-          <div className="flex flex-row gap-3">
-            <p className="text-xl text-[]">&copy;</p>
+          <div className="flex flex-row gap-3 ">
+            <p className="text-xl ">&copy;</p>
             <p>
               copyright 2023. Made by{" "}
               <span className=" underline">Jean de Dieu</span>
