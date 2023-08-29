@@ -77,9 +77,9 @@ const Projects = () => {
               <p> in seamlessly with your Google</p>
               <p> account for added convenience.</p>
             </div>
-            <button className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white">
+            <Link to="/promptopia" target="_blank"  className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center">
               Case Study
-            </button>
+            </Link >
           </div>
         </div>
         <div className="flex flex-row  justify-around">
@@ -125,9 +125,9 @@ const Projects = () => {
               <p>can are going to use same bus as </p>
               <p>you have .</p>
             </div>
-            <button className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center  dark:bg-primary-dark dark:text-white">
+            <Link to="/coryde" target="_blank"  className=" bg-text-primary text-white font-kelly-slab w-48 py-2 rounded-md text-xl self-center dark:bg-primary-dark dark:text-white flex items-center justify-center">
               Case Study
-            </button>
+            </Link >
           </div>
         </div>
       </div>

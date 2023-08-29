@@ -1,26 +1,26 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
-const Libblio = () => {
+const Coryde = () => {
   return (
     <div>
       <div>
         <div className="flex flex-col justify-center items-center pt-36 gap-16 pb-36">
           <div className=" flex items-center justify-center  gap-3 flex-col">
             <h1 className=" font-kelly-slab text-3xl font-light text-text-primary dark:text-primary-dark">
-              libblio
+              coryde
             </h1>
             <div className=" text-text-primary dark:text-white flex flex-col">
               <p>
-                This page contains the case study of libblio Website which
-                includes the{" "}
+                This page contains the case study of promptopia Website which
+                includes
               </p>
               <p className=" self-center">
-                Project Overview, Tools Used and Live Link to the official
+                the Project Overview, Tools Used and Live Links to the official
                 product.
               </p>
               <p className="self-center">
-                also include link for source codes of back-end of it{" "}
+                also include link for source codes of it
               </p>
             </div>
             <button className=" font-kelly-slab bg-text-primary dark:bg-primary-dark text-white rounded-lg px-16 py-2 text-xl">
@@ -28,36 +28,38 @@ const Libblio = () => {
             </button>
           </div>
 
-          <img src="/assets/libblio.png" alt=" ai visuage image" />
+          <img src="/assets/coryde.png" alt=" coryde image" />
           <div className="flex flex-col items-center justify-center gap-3">
             <h1 className=" font-kelly-slab text-3xl  font-light text-text-primary dark:text-primary-dark">
               project overview
             </h1>
             <div className="dark:text-white">
               <p>
-                libblio is online library management system where librarians can
-                easily
+                promptopia is website I have create where you can create post ,
+                share it
               </p>
               <p>
-                manage books founds in their library . In this project I have
-                worked on
+                with friends and family and put tag during creation of your post
+                . It have
               </p>
               <p>
-                backe-nd developement where I was dealing with registering
-                librarians
+                improved searching performance where you can search by using any
               </p>
               <p>
-                and send emails to their email with credentials they entered , i
-                have
+                keyword based on tag , name or post itself . i have implemented
+                login
               </p>
               <p>
-                implemented reset password and other authentication of website .
+                simply with google account . Also you can check all post made by
+                single
               </p>
+              <p>user by clicking their profile picture</p>
               <p>
-                libblio besides its strongest back-end it is very fast and has
-                high
+                its design is good and attractively as it is responsive . Its
+                uniqueness is
               </p>
-              <p>performance for processing requests and take actions</p>
+              <p>that it is attractive and has high performance.</p>
+              <p>if you feel like it , please visit link</p>
             </div>
           </div>
 
@@ -67,23 +69,26 @@ const Libblio = () => {
             </h1>
             <div className="flex flex-row gap-6">
               <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
-                <p>nodejs</p>
+                <p>nextjs</p>
               </div>
               <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
                 <p>git</p>
               </div>
-              <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
-                <p>mongodb</p>
+              <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10   flex items-center justify-center px-3">
+                <p>google auth</p>
               </div>
               <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
-                <p> github</p>
+                <p>vercel</p>
               </div>
 
               <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
-                <p>nodemailer</p>
+                <p>tailwind</p>
               </div>
               <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
-                <p>mongo atlas</p>
+                <p>nodejs</p>
+              </div>
+              <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
+                <p>mongodb</p>
               </div>
             </div>
           </div>
@@ -114,4 +119,4 @@ const Libblio = () => {
   );
 };
 
-export default Libblio;
+export default Coryde;

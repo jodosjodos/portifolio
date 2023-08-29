@@ -1,26 +1,26 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
-const Libblio = () => {
+const Promptopia = () => {
   return (
     <div>
       <div>
         <div className="flex flex-col justify-center items-center pt-36 gap-16 pb-36">
           <div className=" flex items-center justify-center  gap-3 flex-col">
             <h1 className=" font-kelly-slab text-3xl font-light text-text-primary dark:text-primary-dark">
-              libblio
+              promptopia
             </h1>
             <div className=" text-text-primary dark:text-white flex flex-col">
               <p>
-                This page contains the case study of libblio Website which
-                includes the{" "}
+                This page contains the case study of promptopia Website which
+                includes
               </p>
               <p className=" self-center">
-                Project Overview, Tools Used and Live Link to the official
+                the Project Overview, Tools Used and Live Links to the official
                 product.
               </p>
               <p className="self-center">
-                also include link for source codes of back-end of it{" "}
+                also include link for source codes of it
               </p>
             </div>
             <button className=" font-kelly-slab bg-text-primary dark:bg-primary-dark text-white rounded-lg px-16 py-2 text-xl">
@@ -28,36 +28,33 @@ const Libblio = () => {
             </button>
           </div>
 
-          <img src="/assets/libblio.png" alt=" ai visuage image" />
+          <img src="/assets/promptopia.png" alt=" promptopia image" />
           <div className="flex flex-col items-center justify-center gap-3">
             <h1 className=" font-kelly-slab text-3xl  font-light text-text-primary dark:text-primary-dark">
               project overview
             </h1>
             <div className="dark:text-white">
               <p>
-                libblio is online library management system where librarians can
-                easily
+                coryde is simple transport vehicle booking . I am creating
+                fronted of this
               </p>
               <p>
-                manage books founds in their library . In this project I have
-                worked on
+                project where you can check available vehicles that travel to
+                your
               </p>
               <p>
-                backe-nd developement where I was dealing with registering
-                librarians
+                destination so that you can book them , also you can find others
+                that
               </p>
               <p>
-                and send emails to their email with credentials they entered , i
-                have
+                have same destination as you so that you can move together.I am
+                still
               </p>
+              <p>developing front-ed of this project .</p>
               <p>
-                implemented reset password and other authentication of website .
+                by its attractive ui and high performance can help to bit its
+                competitors
               </p>
-              <p>
-                libblio besides its strongest back-end it is very fast and has
-                high
-              </p>
-              <p>performance for processing requests and take actions</p>
             </div>
           </div>
 
@@ -67,24 +64,25 @@ const Libblio = () => {
             </h1>
             <div className="flex flex-row gap-6">
               <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
-                <p>nodejs</p>
+                <p>react</p>
               </div>
               <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
                 <p>git</p>
               </div>
-              <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
-                <p>mongodb</p>
+              <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10   flex items-center justify-center px-3">
+                <p>redux</p>
               </div>
               <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
-                <p> github</p>
+                <p>github</p>
               </div>
 
               <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
-                <p>nodemailer</p>
+                <p>yup</p>
               </div>
               <div className="dark:bg-[#00E5A0] dark:text-white bg-[#D9D9D9] rounded-md h-10 w-24  flex items-center justify-center">
-                <p>mongo atlas</p>
+                <p>mui</p>
               </div>
+              
             </div>
           </div>
           <div className="flex flex-col items-center justify-center gap-3">
@@ -114,4 +112,4 @@ const Libblio = () => {
   );
 };
 
-export default Libblio;
+export default Promptopia;

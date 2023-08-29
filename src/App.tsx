@@ -5,6 +5,8 @@ import { useTheme } from "./hooks/ThemeContext";
 import Libblio from "./pages/Libblio";
 import Traileress from "./pages/Traileress";
 import AiVisuage from "./pages/AiVisuage";
+import Promptopia from "./pages/Promptopia";
+import Coryde from "./pages/Coryde";
 
 function App() {
   const { darkMode } = useTheme();
@@ -26,6 +28,8 @@ function App() {
             <Route element={<Libblio />} path="/libblio"></Route>
             <Route element={<Traileress />} path="/traileress"></Route>
             <Route element={<AiVisuage />} path="/aiVisuage"></Route>
+            <Route element={<Promptopia />} path="/promptopia"></Route>
+            <Route element={<Coryde />} path="/coryde"></Route>
           </Routes>
         </div>
       </BrowserRouter>

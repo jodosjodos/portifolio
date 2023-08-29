@@ -4,7 +4,11 @@ import {
   AiFillTwitterSquare,
 } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { useTheme } from "../hooks/ThemeContext";
 const Footer = () => {
+  const {darkMode}=useTheme()
+
   return (
     <div>
       <div className="bg-black px-24  pt-16 flex flex-col gap-16 pb-16">
@@ -25,12 +29,25 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-6">
             <div className="flex flex-col ">
-              <h1 className="text-2xl font-kelly-slab font-medium dark:text-primary-dark">Social</h1>
+              <h1 className="text-2xl font-kelly-slab font-medium dark:text-primary-dark">
+                Social
+              </h1>
               <div className="flex flex-row">
-                <AiFillLinkedin size={25} />
-                <AiFillTwitterSquare size={25} />
-                <AiFillGithub size={25} />
-                <FaDiscord size={25} />
+              <Link 
+          to="https://www.linkedin.com/in/jean-de-dieu-nshimyumukiza-97b315259/"
+          target="_blank"
+        >
+          <AiFillLinkedin size={25}  color={` ${darkMode? " #00E5A0" :""}`} />
+        </Link>
+        <Link to="https://twitter.com/JodosJodos1" target="_blank">
+          <AiFillTwitterSquare size={25}   color={` ${darkMode? " #00E5A0" :""}`}/>
+        </Link>
+        <Link to="https://github.com/jodosjodos" target="_blank">
+          <AiFillGithub size={25}   color={` ${darkMode? " #00E5A0" :""}`}/>
+        </Link>
+        <Link to="https://discord.com/users/1054299820615028746" target="_blank">
+          <FaDiscord size={25}  color={` ${darkMode? " #00E5A0" :""}`}/>
+        </Link>
               </div>
             </div>
             <p>+250727866254</p>
