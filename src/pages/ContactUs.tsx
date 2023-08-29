@@ -1,5 +1,5 @@
 import * as yup from "yup";
-import { useForm } from "react-hook-form";
+import { SubmitHandler, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import axios from "axios";
 import { useState } from "react";
@@ -20,17 +20,24 @@ const ContactUs = () => {
   const [sent, setSent] = useState(false);
   const { darkMode } = useTheme();
 
-  const handleSubmition = async (data: FormData) => {
+  const handleSubmition: SubmitHandler<{
+    name: string;
+    email: string;
+    message: string;
+  }> = async (data) => {
     try {
       if (data) {
         setIsLoading(true);
         const res = await axios.post(
-          "http://localhost:5000/api/auth/sendEmail",
+          "https://portifolio-ypbq.onrender.com/api/auth/sendEmail",
           data
         );
         setIsLoading(false);
         if (res.status == 200) {
           setSent(true);
+          setTimeout(() => {
+            setSent(false); 
+          }, 3000);
         } else {
           setSent(false);
           alert("try again message not sent");
@@ -112,7 +119,10 @@ const ContactUs = () => {
               </button>
               {sent && (
                 <span>
-                  <GoVerified size={25} color={` ${darkMode?"#00E5A0" :"#0D3167"}`} />
+                  <GoVerified
+                    size={25}
+                    color={` ${darkMode ? "#00E5A0" : "#0D3167"}`}
+                  />
                 </span>
               )}
             </div>
